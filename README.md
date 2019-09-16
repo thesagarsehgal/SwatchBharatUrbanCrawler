@@ -12,11 +12,28 @@ This is a crawleer that crawls the complete website  http://swachhbharaturban.go
 
 ### Doubts/Assumptions
 
-**DOUBT=>** How can we make a POST request every 5 minutes, since the data crawling itself takes a lot more of time.
-**ASSUMPTION=>** For making the post request every 5 minutes, we can put the project in the ScrapingHub, and schedule it to crawl every 5 minutes. The crawler has been made such that it would make a POST request on completing the crawling, and the data would automatically posted.
+1. **DOUBT=>** How can we make a POST request every 5 minutes, since the data crawling itself takes a lot more of time.
+  
+  **ASSUMPTION=>** For making the post request every 5 minutes, we can put the project in the ScrapingHub, and schedule it to crawl every 5 minutes. The crawler has been made such that it would make a POST request on completing the crawling, and the data would automatically posted.
 
-**DOUBT=>** How many output files are required? Like 1 file containing all the information. Or the 4 Files containg information for 4 different levels like State, District, ULB, Ward Level.
-**ASSUMTIONS=>** I have made 1 CSV file only whose table was shown in the task containg all the information. Since all the information can be easily extracted from that file.
+2. **DOUBT=>** How many output files are required? Like 1 file containing all the information. Or the 4 Files containg information for 4 different levels like State, District, ULB and Ward Level.
+
+  **ASSUMTIONS=>** I have made 1 CSV file only whose table was shown in the task containg all the information. Since all the information can be easily extracted easily from that file. The CSV File conatins the followin columns :-
+  - State
+  - District
+  - ULB Name
+  - Ward
+  - No. of Applications Received
+  - No. of Applications Not Verified
+  - No. of Applications Verified 
+  - No. of Applications Approved
+  - No. of Applications Approved having Aadhar No.
+  - No. of Applications Rejected
+  - No. of Applications Pullback
+  - No. of Applications Closed
+  - No. of Constructed Toilet Photo
+  - No. of Commenced Toilet Photo
+  - No. of Constructed Toilet Photo through Swachhalaya
 
 ### How to Setup
 
