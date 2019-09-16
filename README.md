@@ -6,7 +6,7 @@ This is a crawleer that crawls the complete website  http://swachhbharaturban.go
 
 - This crawler was build as a task for ATLAN.
 - The complete data from the website was crawled and stored in a single file
-- This was a new task and learned how to scrap the ASP.NET websites which use `__VIEWSTATE` (Used the https://blog.scrapinghub.com/2016/04/20/scrapy-tips-from-the-pros-april-2016-edition for refrence).
+- This was a new task and learned how to scrap the ASP.NET websites which use `__VIEWSTATE` (Used the https://blog.scrapinghub.com/2016/04/20/scrapy-tips-from-the-pros-april-2016-edition as a tutorial on how to Crawl ASP.NET websites).
 - Also at the end of complete data scrapping, a POST request would be made to the `URL` specified.
 - Also the setup.py file has also been added. 
 
