@@ -1,6 +1,6 @@
 # Swatch Bharat Urban Crawler
 
-This is a crawler that crawls the complete website  http://swachhbharaturban.gov.in/ihhl/RPTApplicationSummary.aspx and extracts the complete information.
+This is a crawler that crawls the complete website  [https://sbmurban.org/rrr-centers](https://sbmurban.org/rrr-centers) and extracts the complete information.
 
 ### About 
 
